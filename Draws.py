@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def f(x):
-    return np.tanh(x)
+    return np.sin(x)
 
 
 
@@ -24,5 +24,5 @@ plt.ylim((0,5))
 plt.legend()
 plt.ylabel('Error')
 plt.xlabel('Número de entrenamientos')
-plt.savefig('Images/overfitting.png')
+# plt.savefig('Images/overfitting.png')
 plt.show()
